@@ -1,0 +1,24 @@
+{
+
+    "name": "metabypass/php",
+    "type": "lib",
+    "description": "metabypass services wraper in php",
+    "keywords": ["lib","captcha_solver","image_captcha","captchasolver", "recaptcha","metabypass","recaptchav2","recaptchav3"],
+    "license": "MIT",
+
+    "require": {
+        "monolog/monolog": "^2.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Metabypass\\":"src"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
