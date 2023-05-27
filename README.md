@@ -15,7 +15,7 @@ Error logger <br/>
 
 ## Install via composer
 <br/>
-Go to your project root directory and run this command in terminal:
+Go to your project root directory and run this command in terminal: </br>
 
 ```
 composer require metabypass/php 
