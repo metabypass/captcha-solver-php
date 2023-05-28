@@ -1,6 +1,8 @@
 # MetaBypass ( AI Captcha Solver )
 ## PHP class to work with MetaBypass services
 
+Free demo (no credit card required) -> https://app.metabypass.tech/application
+
 <br/>
 
 ### Features
