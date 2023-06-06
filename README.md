@@ -41,6 +41,7 @@ use Metabypass\Metabypass;
 
 require 'vendor/autoload.php';
 
+
 //---------------------- CONFIGURATION ---------------------------
 
 //get your credentials from https://app.metabypass.tech/application
