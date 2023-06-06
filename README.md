@@ -41,7 +41,8 @@ use Metabypass\Metabypass;
 
 require 'vendor/autoload.php';
 
-//---------------------- CONFGURATION ---------------------------
+
+//---------------------- CONFIGURATION ---------------------------
 
 //get your credentials from https://app.metabypass.tech/application
 $clientId='YOUR_CLIENT_ID'; 
@@ -77,7 +78,7 @@ use Metabypass\Metabypass;
 
 require 'vendor/autoload.php';
 
-//---------------------- CONFGURATION ---------------------------
+//---------------------- CONFIGURATION ---------------------------
 
 //get your credentials from https://app.metabypass.tech/application
 $clientId='YOUR_CLIENT_ID'; 
@@ -106,7 +107,7 @@ use Metabypass\Metabypass;
 
 require 'vendor/autoload.php';
 
-//---------------------- CONFGURATION ---------------------------
+//---------------------- CONFIGURATION ---------------------------
 
 //get your credentials from https://app.metabypass.tech/application
 $clientId='YOUR_CLIENT_ID'; 
