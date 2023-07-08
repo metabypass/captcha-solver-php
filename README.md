@@ -7,7 +7,7 @@ Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 ### Features
 
-Solve image captcha , reCaptcha v2 & v3 & invisible reCaptcha <br/>
+Solve image captcha , reCAPTCHA v2 & v3 & invisible reCAPTCHA <br/>
 Auto handler for reCaptcha v2 <br/>
 Simple syntax <br/>
 Error logger <br/>
@@ -70,7 +70,7 @@ var_dump($metabypass->imageCaptcha_result); //end result
  ```
 <br/><br/>
 
-**reCaptcha v2** <br />
+**reCAPTCHA v2** <br />
  ```PHP
 <?php
 
@@ -99,7 +99,7 @@ var_dump($metabypass->reCaptchaV2_result); //end result
 <br/><br/>
 
 
-**reCaptcha v3** <br />
+**reCAPTCHA v3** <br />
  ```PHP
 <?php
 
@@ -127,7 +127,7 @@ var_dump($metabypass->reCaptchaV3_result); //end result
  ```
 <br/><br/>
 
-**reCaptcha invisible** <br />
+**reCAPTCHA invisible** <br />
  ```PHP
 <?php
 
