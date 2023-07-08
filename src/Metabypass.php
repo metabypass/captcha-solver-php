@@ -11,13 +11,14 @@ class Metabypass extends Auth{
 
     public $reCaptchaV2_result=null;
     public $reCaptchaV3_result=null;
+    public $reCaptchaInvisible_result=null;
     public $imageCaptcha_result=null;
 
     //services
     use CaptchaSolver,reCaptcha;
-    
 
-    //image captcha requester 
+
+    //image captcha requester
     public function imageCaptcha($image,$numeric=0,$minLen=0,$maxLen=0){
 
         //check image is file or base64
@@ -61,7 +62,7 @@ class Metabypass extends Auth{
             return false;
         }
 
-        
+
         //handle get result (max: 60 seconds)
         for($i=0;$i<10;$i++){
 
@@ -71,7 +72,7 @@ class Metabypass extends Auth{
             //request get result API
             $result=$this->reCaptchaV2GetResultRequester($reCaptchaResponse->data->RecaptchaId);
             //var_dump($result); //show get result response
-          
+
             if($result->status_code==200){
                 break;
             }else{
@@ -85,9 +86,12 @@ class Metabypass extends Auth{
 
     //reCaptcha v3 requester
     public function reCaptchaV3($url,$siteKey){
-
         return $this->reCaptchaV3Requester($url,$siteKey);
+    }
 
+    //reCaptcha invisible requester
+    public function reCaptchaInvisible($url,$siteKey){
+        return $this->reCaptchaInvisibleRequester($url,$siteKey);
     }
 
 
